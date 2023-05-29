@@ -15,8 +15,6 @@
         echo $e->getMessage();
     }
 
-
-
     $mysqli = new mysqli(dbhost, dbuser, dbpass, dbname);
 
 class Banco{
